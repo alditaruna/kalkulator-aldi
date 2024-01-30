@@ -1,43 +1,43 @@
 body{
-    background-image: url(img/pemandangan.jpg) ;
+    background-color: #2b3b96;
     font-family: sans-serif;
 }
 .kalkulator{
     width: 335px;
-    background-color: rgb(21, 69, 110);
     margin: 100px auto;
-    padding: 10px 20px 50px 20px ;
+    padding: 10px 20px 50px 20px;
+    background-color: #2b78a5;
+    box-shadow: 0px 10px 20px 0px #fff;
     border-radius: 5px;
-    box-shadow: 0px 10px 20px 0px rgb(22, 17, 17);
-}
-.bil{
-    width: 300px;
-    font-size: 16pt;
-    border-radius: 5px;
-    margin: 5px;
-    padding: 10px;
-    border: none;
-}
-.opt{
-    font-size: 16pt;
-    width: 215px;
-    border-radius: 5px;
-    margin: 5px;
-    padding:10px ;
-    border: none;
-}
-.tombol{
-    background-color: antiquewhite;
-    border-radius: 5px;
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    padding: 10px 20px;
-    font-size: 15px;
-    border-bottom: 4px solid;
 }
 .judul{
     text-align: center;
+    font-size: normal;
+    text-decoration: none;
     color: #fff;
-    font-weight: normal;
+
+}
+.bil{
+    width: 300px;
+    padding: 10px;
+    margin: 5px ;
+    border-radius: 5px;
+    font-size: 16pt;
+    
+    
+}
+.opt{
+    width: 215px;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    font-size: 16pt;
+}
+.tombol{
+    width: 100px;
+    padding: 10px;
+    margin: none;
+    border-radius: 5px;
+    font-size: 15pt;
+    background-color: #1ba3cc;
 }
